@@ -1,2 +1,67 @@
-# Speeding-Up-Your-Web-Site
-Best practices for making web pages fast. The list includes 35 best practices divided into 7 categories.
+· 大型网站架构模式
+
+    · 综述
+
+    · 分层
+
+        · 概念
+
+        · 目的
+
+        · 举例
+
+    · 分割
+
+        · 概念
+
+        · 目的
+
+        · 举例
+
+    · 分布式
+
+        · 概念
+
+        · 目的
+
+        · 缺点
+
+        · 举例
+
+    · 集群
+
+        · 概念
+
+        · 目的
+
+    · 缓存
+
+        · 概念
+
+        · 目的
+
+        · 举例
+
+    · 异步
+
+        · 概念
+
+        · 目的
+
+    · 冗余
+
+        · 概念
+
+        · 目的
+
+        · 举例
+
+    · 自动化
+
+        · 目的
+
+        · 举例
+
+    · 安全
+
+        · 举例
