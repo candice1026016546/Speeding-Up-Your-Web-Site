@@ -61,6 +61,6 @@
         ·优化CSS Sprite
         https://www.w3schools.com/css/css_image_sprites.asp
         
-        <a href="https://www.w3schools.com/css/css_image_sprites.asp">`优化CSS Sprite`</a>
+        <a href="#https://www.w3schools.com/css/css_image_sprites.asp">`优化CSS Sprite`</a>
 
 
