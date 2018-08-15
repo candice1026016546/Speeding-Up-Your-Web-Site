@@ -1,7 +1,5 @@
 · 高性能网站架构模式
 
-    · 综述
-
     · 分层
          将系统在横向维度上切分成几个部分，每个部分负责一部分相对比较单一的职责，然后通过上层对下层的依赖和调用组成一个完整的系统
    
@@ -27,6 +25,7 @@
         减少人为干预，减少故障
     
     · 安全
+       XSS攻击、注入攻击、CSRF攻击
         
 
 · 网站前端性能优化
@@ -58,8 +57,8 @@
         ·精简Javascript和CSS
         
     · 图片
-        ![优化CSS Sprite](https://www.w3schools.com/css/css_image_sprites.asp)
-        https://www.w3schools.com/css/css_image_sprites.asp
+    
+        ·CSS Sprite
 
 
 
