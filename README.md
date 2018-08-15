@@ -36,14 +36,14 @@
 
 · 网站前端性能优化
     
-   · 页面呈现过程
+    · 页面呈现过程
      ·DOM 树
      ·CSSOM 树
      ·Render 树
 
 ![image](https://github.com/candice1026016546/Speeding-Up-Your-Web-Site/blob/master/DOM.jpg)    
 
-   · 优化渲染性能
+    · 优化渲染性能
          ·JavaScript：改变元素样式，添加元素到 DOM 中等等
          ·Style：元素的类或者style改变了，这个时候需要重新计算元素的样式
          ·Layout：需要重新计算元素的具体尺寸 
@@ -51,17 +51,17 @@
          ·Composite：合并多个图层
     
     
-   · CSS 优化
+    · CSS 优化
         ·将样式表置顶
         ·避免使用CSS表达式
         .用<link>代替@import
         
-   · JavaScript 优化
+    · JavaScript 优化
         ·将脚本置底
         ·使用外部Javascirpt和CSS文件
         ·精简Javascript和CSS
         
-   · 图片
+    · 图片
         ·CSS Sprite
         
         
