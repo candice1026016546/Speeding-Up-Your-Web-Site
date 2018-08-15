@@ -32,34 +32,35 @@
 · 网站前端性能优化
     
     · 页面呈现过程
-        DOM 树
-        CSSOM 树
-        Render 树
+        ·DOM 树
+        ·CSSOM 树
+        ·Render 树
     
     · 优化渲染性能
-        
+         ·JavaScript：改变元素样式，添加元素到 DOM 中等等
+         ·Style：元素的类或者style改变了，这个时候需要重新计算元素的样式
+         ·Layout：需要重新计算元素的具体尺寸 
+         ·Paint：将元素的绘制的图层上
+         ·Composite：合并多个图层
     
     
     · CSS 优化
-
+        ·将样式表置顶
+        ·避免使用CSS表达式
+        
+            background-color: expression( (new Date()).getHours()%2 ? "#B8D4FF" : "#F08A00" );
+            
+        .用<link>代替@import
+        
     · JavaScript 优化
-
+        ·将脚本置底
+        ·使用外部Javascirpt和CSS文件
+        ·精简Javascript和CSS
+        
     · 图片
+        ·优化CSS Sprite
+        https://www.w3schools.com/css/css_image_sprites.asp
+        
+        <a href="https://www.w3schools.com/css/css_image_sprites.asp">`优化CSS Sprite`</a>
 
-https://wy-ei.github.io/2016/09/fe-performance-optimization.html
-
-
-https://github.com/wy-ei/notebook/issues/15
-
-http://stevesouders.com/hpws/js-middle.php
-
-https://csstriggers.com/
-
-https://github.com/wy-ei/notebook/issues/34
-
-https://www.cnblogs.com/netoxi/p/7258895.html#%E7%BB%BC%E8%BF%B0
-
-https://www.cnblogs.com/lei2007/archive/2013/08/16/3262897.html
-
-https://blog.csdn.net/smiple9102/article/details/78890600
 
