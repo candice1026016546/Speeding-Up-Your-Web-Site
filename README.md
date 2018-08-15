@@ -37,6 +37,8 @@
 · 网站前端性能优化
     
     · 页面呈现过程
+   ![image]（https://github.com/candice1026016546/Speeding-Up-Your-Web-Site/blob/master/DOM.jpg）
+
         ·DOM 树
         ·CSSOM 树
         ·Render 树
