@@ -58,9 +58,8 @@
         ·精简Javascript和CSS
         
     · 图片
-        [优化CSS Sprite](https://www.w3schools.com/css/css_image_sprites.asp)
+        ![优化CSS Sprite](https://www.w3schools.com/css/css_image_sprites.asp)
         https://www.w3schools.com/css/css_image_sprites.asp
-        
-        <a href="#https://www.w3schools.com/css/css_image_sprites.asp">`优化CSS Sprite`</a>
+
 
 
