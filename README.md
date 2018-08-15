@@ -2,7 +2,7 @@
 
 
 
-![image](https://github.com/candice1026016546/Speeding-Up-Your-Web-Site/blob/master/structure.jpg)
+![image](https://github.com/candice1026016546/Speeding-Up-Your-Web-Site/blob/master/structure.png)
 
 
 
