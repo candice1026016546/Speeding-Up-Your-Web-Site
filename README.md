@@ -31,8 +31,29 @@
         减少人为干预，减少故障
     
     · 安全
-       XSS攻击、注入攻击、CSRF攻击
+       XSS攻击
+        A.反射型
+        正常发送消息：
+        http://www.test.com/message.php?send=Hello,World！
+        接收者将会接收信息并显示Hello,Word
+        非正常发送消息：
+        http://www.test.com/message.php?send=<script>alert(‘foolish!’)</script>！
+        接收者接收消息显示的时候将会弹出警告窗口
         
+        B.持久型
+        正常操作：
+        留言板表单中的表单域：<input type=“text” name=“content” value=“这里是用户填写的数据”>
+        用户是提交相应留言信息；将数据存储到数据库；其他用户访问留言板，应用去数据并显示。
+        非正常操作：
+        攻击者在value填写<script>alert(‘foolish!’)</script>【或者html其他标签（破坏样式。。。）、一段攻击型代码】；
+        将数据存储到数据库中；
+        其他用户取出数据显示的时候，将会执行这些攻击性代码
+        
+       注入攻击
+         http://www.test.com/message.php?username='A';drop table users;--
+        
+       CSRF攻击
+        攻击者盗用了你的身份，以你的名义发送恶意请求
 
 · 网站前端性能优化
     
