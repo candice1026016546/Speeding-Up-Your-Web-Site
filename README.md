@@ -58,12 +58,14 @@
 · 网站前端性能优化
     
     · 页面呈现过程
-     ·DOM 树
-     ·CSSOM 树
-     ·Render 树
-
 ![image](https://github.com/candice1026016546/Speeding-Up-Your-Web-Site/blob/master/DOM.jpg)    
-
+        
+        ·解析 HTML/CSS 生成 DOM 树 CSSOM 树
+        ·联合 DOM 树和 CSSOM 树得到渲染树
+        ·将 Render 树划分为多个图层，并绘制图层
+        ·将各图层的数据上传至 GPU
+        ·GPU 合并图层得到最终展示在屏幕上的图片
+        
     · 优化渲染性能
          ·JavaScript：改变元素样式，添加元素到 DOM 中等等
          ·Style：元素的类或者style改变了，这个时候需要重新计算元素的样式
